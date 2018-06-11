@@ -3,6 +3,12 @@
     "node_modules"
   ],
   "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": [
+        "src/*"
+      ],
+    },
     "declaration": false,
     "noResolve": false,
     "jsx": "react",

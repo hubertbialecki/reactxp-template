@@ -1,4 +1,4 @@
-import TodoApp = require('./TodoAppNative');
+import TodoApp from './AppNative';
 
 TodoApp.init();
 

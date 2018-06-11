@@ -1,3 +1,3 @@
-import TodoApp = require('./TodoAppWeb');
+import TodoApp from './AppWeb';
 
 TodoApp.init();

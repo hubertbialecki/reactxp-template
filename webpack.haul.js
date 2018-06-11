@@ -22,6 +22,9 @@ module.exports = function (_ref, _ref2) {
       }].concat(_toConsumableArray(module.rules))
     }),
     resolve: _extends({}, resolve, {
+      alias: {
+        '@src': path.resolve(__dirname, 'src'),
+      },
       extensions: ['.ts', '.tsx', '.' + platform + '.ts', '.native.ts', '.' + platform + '.tsx', '.native.tsx'].concat(_toConsumableArray(resolve.extensions))
     })
   };
